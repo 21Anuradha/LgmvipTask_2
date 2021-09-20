@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.app{
+    
+    background-color: burlywood;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
+} 
+.app-heading{
+padding: 20px 0;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.background-img{
+    margin: 10px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.btn{
+    margin: 100px;
+    padding: auto;
+    font-size: 20px;
+    background-color: burlywood;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px ;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card-top{
+    width: 100%;
+}
+.card-img{
+    height: 250px;
+    width: 100%;
+}
+.loading{
+    display: flex;
+} 
+
+
+
